@@ -112,7 +112,7 @@ int subSystemInitialisateur(SDL_Window **window,SDL_Renderer **renderer){
            printf("Initialisation de TTF Reussi !\n");
     }
 
-  *window = SDL_CreateWindow("Jeu | Samy-Harfouche |",FENETRE_POSX,FENETRE_POSY,LARGEUR_FENETRE,HAUTEUR_FENETRE,0);
+  *window = SDL_CreateWindow("Jeu | SpaceInvaders |",FENETRE_POSX,FENETRE_POSY,LARGEUR_FENETRE,HAUTEUR_FENETRE,0);
   if(window) printf("Creation de la Fenetre Reussi !\n");
    else{
     printf("Echec lors de  la creation de la Fenetre !\n");
